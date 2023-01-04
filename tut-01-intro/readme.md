@@ -17,3 +17,5 @@
 
 ### tut-01a
 
+1. Accept this GitHub Classroom Assignment:
+2. 
