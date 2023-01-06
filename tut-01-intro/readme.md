@@ -49,7 +49,9 @@ _Things might behave a bit differently for you than what you see here. If they d
 
     The first time you accept an assignment from GitHub Classroom, you'll need to link your GitHub account info to your "real" name:
     
-    ![link your name](images/link-your-name-bordered.png)
+    |![link your name](images/link-your-name-bordered.png)|
+    |:--:|
+    | _Linking your name to your GH username._|
     
     Just choose your name from the list and continue on.
 
