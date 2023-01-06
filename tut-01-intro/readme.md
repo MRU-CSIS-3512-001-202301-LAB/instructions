@@ -158,29 +158,38 @@ Let's do this again - but THIS time, let's spin up a web server inside the Codes
 
     _**Aside:** So yes - you can have multiple Codespaces! There is some limit per organization (I think it's two), so eventually you will need to delete Codespaces...**so remember to push your work before deleting that box!**_
     
-2. Get into "real" VS Code, connected to your new Codespace.
+1. Get into "real" VS Code, connected to your new Codespace.
 
-5. Let's make a simple web page to display, using the power of [Emmet](https://code.visualstudio.com/docs/editor/emmet). Make a new file called `index.html`, open it up in the editor, enter `!`, and hit the Tab key. Magic happens:
+1. Let's make a simple web page to display, using the power of [Emmet](https://code.visualstudio.com/docs/editor/emmet). Make a new file called `index.html`, open it up in the editor, enter `!`, and hit the Tab key. Magic happens:
 
     |     ![emmet result](images/emmet-result-bordered.png)     |
     |:---------------------------------------------------------:|
     | _Emmet makes writing markup slightly less soul-crushing._ |
     
-6. Change the title of the page to something that amuses you; add some content to the `<body>` as well. Save the page. 
+1. Change the title of the page to something that amuses you; add some content to the `<body>` as well. Save the page. 
+
+> **a short detour into formatting**
+
+> _Take a moment to set up VS Code so that it formats your HTML nicely everytime you save. See if you can figure out how to do this on your own - but I'll give you a hint: take a look under `File > Preferences > Settings` and search for the `default formatter` settings and `format on save` settings that seem appropriate._
+> 
+> _Snag JP if you're stuck._
+
+
+#### the final push: getting the web server running & looking at your work
 
 _Now we want to use our Codespace as a web server - we want to browse to this magical virtual machine and take a look at our new web page._
 
 _The Codespace you've been given has been preconfigured to have an Apache webserver (we'll talk about what that means next week), PHP, and a MariaDB server on it. To use the web server, we need to chant a magic incantation to make it come to life._ 
 
-7. Open up a terminal in VS Code and issue the command `apache2ctl start`.
+1. Open up a terminal in VS Code and issue the command `apache2ctl start`.
 
     |               ![start apache](images/start-apache-bordered.png)               |
     |:-----------------------------------------------------------------------------:|
     | _Starting up the Apache web server so you can browse web pages living there._ |
   
-5. Close the window saying port 80 is available (just x it).
+1. Close the window saying port 80 is available (just x it).
 
-6. Click on the `8080`, and you'll see some useful icons appear:
+1. Click on the `8080`, and you'll see some useful icons appear:
 
     |       ![ports](images/ports-bordered.png)       |
     |:-----------------------------------------------:|
@@ -188,9 +197,9 @@ _The Codespace you've been given has been preconfigured to have an Apache webser
     
 7. Click on the globe icon...and gasp in amazement as your work is displayed. Don't pass out, because your instructor has **zero** first aid skills.
 
-8. Play a bit more if you want.
+1. Play a bit more if you want.
 
-9. Add, commit, and push your work. Disconnect VS Code from your Codespace and then shut it down if you want. (Or let it time out.)
+1. Add, commit, and push your work. Disconnect VS Code from your Codespace and then shut it down if you want. (Or let it time out.)
 
 
 
