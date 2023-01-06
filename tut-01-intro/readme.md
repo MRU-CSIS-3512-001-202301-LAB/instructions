@@ -55,17 +55,17 @@ _Things might behave a bit differently for you than what you see here. If they d
 
 2. Time to spin up your Codespace! Take a look here:
 
-    ![start Codespace](images/codespace-startup.png)
+    ![start Codespace](images/codespace-startup-bordered.png)
 
 3. Wait a while. Magic takes time, yes?
 
 4. You'll eventually be sitting in a browser tab that looks an **awful** lot like VS Code:
 
-    ![you've arrived](images/home-sweet-home.png)
+    ![you've arrived](images/home-sweet-home-bordered.png)
     
     _You're actually remoting into a virtual machine running somewhere out there in cloud land. Via your browser. Crazy world we live in, yes?_
 
-5. As cool as using your browser as your IDE is, there are some limitations that we bump into that will be show-stoppers for our PHP development, so we want to open up this Codespace in VS Code. Let's do that.
+5. As cool as using your browser as your IDE is, there are some limitations that we bump into that will be show-stoppers for our PHP development, so we want to open up this Codespace in "real" VS Code. Let's do that.
 
     1. Go to VS Code's Command Palette (`Ctrl + Shift + P`), search for `Codespaces: Open in VS Code Desktop`, and select it.
  
@@ -73,7 +73,7 @@ _Things might behave a bit differently for you than what you see here. If they d
     
         You should see something like this:
     
-        ![warning message](images/open-in-vs-code.png)
+        ![warning message](images/open-in-vs-code-bordered.png)
     
     2. Click that `Open Visual Studio Code` button. If you get a dialog asking you whether it's ok to allow GitHub Codespaces to open a URL, say heck yeah and tell it not to bother you again either.
     
@@ -81,7 +81,7 @@ _Things might behave a bit differently for you than what you see here. If they d
 
     3. If/when you get a warning that looks like the following, you can choose `Ignore Pull Request`: 
     
-    ![warning message](images/warning.png) 
+    ![warning message](images/warning-bordered.png) 
     
 
 #### Take stock for a moment
@@ -90,7 +90,7 @@ _So we're jacked in to a remote machine - your own custom-made development machi
 
 _If you open up the Command Palette (remember `Ctrl + Shift + P`) and search for `Codespaces: Details`, you can see the details of your box:_
 
-  ![details](images/details.png)
+  ![details](images/details-bordered.png)
   
 _Let's finish off by modifying the README.md, pushing our work, and spinning our Codespace down._
 
@@ -106,7 +106,7 @@ _Let's finish off by modifying the README.md, pushing our work, and spinning our
 
   The Codespace will spin down automatically after 30 minutes of activity, but you can also force it to stop by choosing the hotdog menu on the right-hand side and choosing `Stop codespace`:
   
-  ![details](images/stop-stopping.png)
+  ![details](images/stop-stopping-bordered.png)
   
   Do this now, so you can get a feel for what it's like to re-open a Codespace that has been stopped.
   
@@ -120,7 +120,7 @@ _Codespaces typically aren't going to be one-shot things; you'll want to revisit
 
     You _can_ easily start up a machine from your Codespaces page (https://github.com/codespaces) by clicking on the _machine name_ - not the repo name - of the machine you want to start:
     
-    ![starting up](images/starting-up.png)
+    ![starting up](images/starting-up-bordered.png)
     
 2. Use your experience from Part 1 to get back into VS Code - the "real" application, not the browser one.
 
@@ -146,7 +146,7 @@ Let's do this again - but THIS time, let's spin up a web server inside the Codes
 
 5. Let's make a simple web page to display, using the power of [Emmet](https://code.visualstudio.com/docs/editor/emmet). Make a new file called `index.html`, open it up in the editor, enter `!`, and hit the Tab key. Magic happens:
 
-    ![emmet result](images/emmet-result.png)
+    ![emmet result](images/emmet-result-bordered.png)
     
 6. Change the title of the page to something that amuses you; add some content to the `<body>` as well. Save the page. 
 
@@ -156,13 +156,13 @@ _The Codespace you've been given has been preconfigured to have an Apache webser
 
 7. Open up a terminal in VS Code and issue the command `apache2ctl start`.
 
-    ![start apache](images/start-apache.png)
+    ![start apache](images/start-apache-bordered.png)
   
 5. Close the window saying port 80 is available (just x it).
 
 6. Click on the `8080`, and you'll see some useful icons appear:
 
-    ![ports](images/ports.png)
+    ![ports](images/ports-bordered.png)
     
 7. Click on the globe icon...and gasp in amazement as your work is displayed. Don't pass out, because your instructor has **zero** first aid skills.
 
