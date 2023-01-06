@@ -5,7 +5,7 @@
 1. _Who are these people around you?!?_
 2. _Why  should I bother coming to tuts if they're not worth marks?_
 3. _Where are the instructions for tutorials?_
-4. _How do get the starting files for tutorials (and for The Project)?_
+4. _How do I get the starting files for tutorials (and for The Project)?_
 5. _What are Codespaces, and why are we using them?_
 6. _How do I start up a Codespace so I can get coding - and start it back up again if it ever stops?_
 7. _How can I cut down on the time needed to bang out markup?_
