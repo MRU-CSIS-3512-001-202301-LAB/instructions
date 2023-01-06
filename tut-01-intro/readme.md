@@ -132,7 +132,7 @@ _Codespaces typically aren't going to be one-shot things; you'll want to revisit
 
 ---
 
-### Tut-01b
+### Tut-01b: Running a Web Server on Your Codespaces
 
 _That might have been a bit exhausting, but you get used to it after a while. You might also find a better way to do it, so if you do, please tell me so that I can look awesome as well!_
 
@@ -140,7 +140,7 @@ Let's do this again - but THIS time, let's spin up a web server inside the Codes
 
 1. Accept this GitHub Classroom Assignment: https://classroom.github.com/a/RS3GZw_Q.
 
-    _**Aside:** So yes - you can have multiple Codespaces! There is some limit per organization (I think it's two), so eventually you will need to delete Codespaces...**but that doesn't mean you are deleting your source code in your repository - you're just getting rid of the virtual machine that was being used as a development box.**_
+    _**Aside:** So yes - you can have multiple Codespaces! There is some limit per organization (I think it's two), so eventually you will need to delete Codespaces...**so remember to push your work before deleting that box!**_
     
 2. Get into "real" VS Code, connected to your new Codespace.
 
