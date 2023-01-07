@@ -25,6 +25,7 @@ Every tutorial will see us doing the same sort of things:
 
 We're going to try to do this process **twice** today, so that you start to feel comfortable with it.
 
+
 ## Do These Things
 
 ### Prerequisites
@@ -39,90 +40,29 @@ Before you get started, please make sure whatever VS Code installation you are u
 
 _If you plan on working on lab machines a lot, you should look into the [Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync) feature in VS Code. It's very nice._
 
+### Watch the Screencast
+
+I've made this screencast to walk you through the basic process of connecting and re-connecting to a Codespace: 
+
+[tut-01 walkthrough: connecting/re-connecting to Codespaces](https://watch.screencastify.com/v/TKTZOUnihXd7bwOHVdnN) **[33:48]**
+
 ---
 
 ### Tut-01a: Part 1 (Accessing Your First Codespace)
 
-_Things might behave a bit differently for you than what you see here. If they do, don't panic. If you're in the lab while doing this, just flag JP down. If you're not, then just do your best - you're not going to break anything permanently if you poke around a bit!_
-
 1. Accept this GitHub Classroom Assignment: https://classroom.github.com/a/T4pK7w8b
 
-    The first time you accept an assignment from GitHub Classroom, you'll need to link your GitHub account info to your "real" name:
-    
-    | ![link your name](images/link-your-name-bordered.png) |
-    |:-----------------------------------------------------:|
-    |       _Linking your name to your GH username._        |
-    
-    Just choose your name from the list and continue on.
+2. Start your Codespace and connect to it, as shown in the screencast.
 
-2. Time to spin up your Codespace! Take a look here:
+3. Open up the `README.md` file and writing one sentence about how all this is making you feel right now. Excited? Confused? Dead inside? You tell me!
 
-    | ![start Codespace](images/codespace-startup-bordered.png) |
-    |:---------------------------------------------------------:|
-    |       _Where to click to start up your Codespace._        |
-
-3. Wait a while. Magic takes time, yes?
-
-4. You'll eventually be sitting in a browser tab that looks an **awful** lot like VS Code:
-
-    |                                           ![you've arrived](images/home-sweet-home-bordered.png)                                            |
-    |:-------------------------------------------------------------------------------------------------------------------------------------------:|
-    | _You're actually remoting into a virtual machine running somewhere out there in cloud land. Via your browser. Crazy world we live in, yes?_ |
-    
-    
-
-5. As cool as using your browser as your IDE is, there are some limitations that we bump into that will be show-stoppers for our PHP development, so we want to open up this Codespace in "real" VS Code. Let's do that.
-
-    1. Go to VS Code's Command Palette (`Ctrl + Shift + P`), search for `Codespaces: Open in VS Code Desktop`, and select it.
- 
-        _**Aside:** getting comfortable with keyboard shortcuts on any tool you frequently use is time well spent and a sign of competence!_
-    
-        You should see something like this:
-    
-        |     ![warning message](images/open-in-vs-code-bordered.png)      |
-        |:----------------------------------------------------------------:|
-        | _Closing down the "browser" VS Code to get into the "real" one._ |
-    
-    2. Click that `Open Visual Studio Code` button. If you get a dialog asking you whether it's ok to allow GitHub Codespaces to open a URL, say heck yeah and tell it not to bother you again either.
-    
-        You might also have VS Code open yet another VS Code window...just roll with it.
-
-    3. If/when you get a warning that looks like the following, you can choose `Ignore Pull Request`: 
-    
-    | ![warning message](images/warning-bordered.png) |
-    |:-----------------------------------------------:|
-    |               _Nope. Don't care._               |
-    
-
-#### Take stock for a moment
-
-_So we're jacked in to a remote machine - your own custom-made development machine. Pretty neat!_ 
-
-_If you open up the Command Palette (remember `Ctrl + Shift + P`) and search for `Codespaces: Details`, you can see the details of your box:_
-
-  |                                                                                                      ![details](images/details-bordered.png)                                                                                                       |
-  |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-  | _Not too shabby for a free virtual machine. Note the idle timeout and retention period: in this case, if you don't "talk" to your machine for 30 mintues, it'll go to sleep - and if you don't do **anything** on it for 30 days, it'll be nuked!_ |
-  
-_Let's finish off by modifying the README.md, pushing our work, and spinning our Codespace down._
-
-6. Open up the `README.md` file and writing one sentence about how all this is making you feel right now. Excited? Confused? Dead inside? You tell me!
-
-7. Add, commit, and push your work. You can use the command line (either inside of VS Code or not), or use VS Code's built-in Git features. 
+4. Add, commit, and push your work. You can use the command line (either inside of VS Code or not), or use VS Code's built-in Git features. Both ways are shown in the screencast around the **21:27** mark.)
 
       _**Aside:** You should be able to use both - having at least some comfort with the command line is going to be important in your career eventually. Honest._
 
-8. Use the Command Palette to `Codespaces: Stop Current Codespace`. You can shut down VS Code - though you're going to need it again shortly when we move to Tut-01b!
+    Go to your repo on GitHub and confirm your work is there.
 
-9. Go back to your GitHub home page, then go to the `Codespaces` menu (or just go to `github.com/codespaces`). You'll see that although you told VS Code to stop the current Codespace - it's still running! The command seems to be more of a "disconnect VS Code from the Codespace" command. 🙄
-
-  The Codespace will spin down automatically after 30 minutes of activity, but you can also force it to stop by choosing the hotdog menu on the right-hand side and choosing `Stop codespace`:
-  
-  | ![details](images/stop-stopping-bordered.png) |
-  |:---------------------------------------------:|
-  |        _Forcing a Codespace to stop._         |
-  
-  Do this now, so you can get a feel for what it's like to re-open a Codespace that has been stopped.
+5. We want to practice re-connecting to a Codespace, so disconnect from your Codespace stop your Codespace now (as shown around the 25:45 mark in the screencast) and then move on to Part 2.
   
 ---  
   
@@ -130,21 +70,13 @@ _Let's finish off by modifying the README.md, pushing our work, and spinning our
 
 _Codespaces typically aren't going to be one-shot things; you'll want to revisit them occasionally, perhaps even often - like you will be doing for The Project._
 
-1. We want to start up our stopped machine. I _thought_ we could do that easily from within VS Code, but haven't (yet?) found a way to do so easily - but I haven't dug all that deeply tbh. ;)
+1. Start up your Codespace using either of the methods shown in the screencast (around the 28:38 mark).
 
-    You _can_ easily start up a machine from your Codespaces page (https://github.com/codespaces) by clicking on the _machine name_ - not the repo name - of the machine you want to start:
-    
-    |             ![starting up](images/starting-up-bordered.png)              |
-    |:------------------------------------------------------------------------:|
-    | _Starting up a stopped machine - click on that machine, not repo, name!_ |
-    
-2. Use your experience from Part 1 to get back into VS Code - the "real" application, not the browser one.
+2. Add a new file to your machine - call it `frequent-site.md` - and inside of that, put a link to a (SFW) website you often go to and that you're willing to share with me.
 
-3. Add a new file to your machine - call it `frequent-site.md` - and inside of that, put a link to a (SFW) website you often go to and that you're willing to share with me.
+3. Add, commit, and push your work.
 
-4. Add, commit, and push your work.
-
-5. Shut down your machine as you did in Part 1 and confirm that your new file is visible in the repo.
+4. Shut down your machine as you did in Part 1 and confirm that your new file is visible in the repo.
 
 ---
 
@@ -183,8 +115,8 @@ _The Codespace you've been given has been preconfigured to have an Apache webser
 
 1. Open up a terminal in VS Code and issue the command `apache2ctl start`.
 
-    |               ![start apache](images/start-apache-bordered.png)               |
-    |:-----------------------------------------------------------------------------:|
+    |              ![start apache](images/start-apache-bordered.png)               |
+    |:----------------------------------------------------------------------------:|
     | _Starting up the Apache web server so you can browse web pages living there._ |
   
 1. Close the window saying port 80 is available (just x it).
@@ -199,7 +131,9 @@ _The Codespace you've been given has been preconfigured to have an Apache webser
 
 1. Play a bit more if you want.
 
-1. Add, commit, and push your work. Disconnect VS Code from your Codespace and then shut it down if you want. (Or let it time out.)
+1. Add, commit, and push your work. Confirm that it's in your GitHub repo. 
+
+1. Disconnect VS Code from your Codespace and then shut it down if you want. (Or let it time out.)
 
 
 
