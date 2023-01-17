@@ -21,16 +21,6 @@ Another thing will be to [process an order form](#exercise-process-an-order-form
 
 You can complete these activities in any order, but I put the list display first because I think it's easier.
 
-## Questions To Answer
-
-1. _Can you create a really lame Moomentum clone in PHP?_
-2. _Can you use an API to snag some random adjectives?_
-3. _Do you remember enough CSS to evenly distribute 3 pictures on a page?_
-4. _Can you create some simple PHP functions that..._
-   1. _...return the time of day (morning, afternoon, evening) based on the actual time?_
-   2. _...return a random word from an array of words?_
-5. _Can you find a way to display the current time, in **our** time zone?_
-6. _Can you create a basic transformation in Cloudinary that allows you to load images from your Cloudinary media library that are smallish?_
 
 ---
 ## Exercise: Display All Orders
