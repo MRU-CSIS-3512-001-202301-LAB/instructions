@@ -26,6 +26,29 @@ You'll also be crafting some image tags that tie into Cloudinary. There will be 
 5. _Can you find a way to display the current time, in **our** time zone?_
 6. _Can you create a basic transformation in Cloudinary that allows you to load images from your Cloudinary media library that are smallish?_
 
+## A Cloudinary Setting You Need (NEW!)
+
+We need to stop Cloudinary from adding suffixes to our file names, so we need to tweak a setting.
+
+1. Log in to Cloudinary and make sure you're in the Dashboard.
+
+2. Clock on the Settings cog:
+  ![cog](images/cog.png)
+
+3. Go to `Upload`:
+   ![upload](images/upload.png)
+
+4. Scroll to the `Upload presets` section an click `Edit`:
+  ![presets](images/presets.png)
+  
+5. Toggle `Unique filename` to `off`:
+   ![unique](images/unique.png)
+   
+6. Don't forget to save!
+
+
+**Also make sure you create a FOLDER in the Media Library and dump the unzipped photos into there. I'd STRONGLY recommend you do not add any spaces to the name. Just use dashes instead.**
+
 ## Do This
 
 Your goal is to build something like this:
