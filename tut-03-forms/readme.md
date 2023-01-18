@@ -4,7 +4,7 @@
 
 | What              | Where                                   |
 | ----------------- | --------------------------------------- |
-| Tut-03 Screencast | (coming soon)                           |
+| Tut-03 Screencast | https://youtu.be/2MFjtxkb-y0                          |
 | GH Classroom Asg  | https://classroom.github.com/a/MQVLeRN8 |
 
 ## Background
