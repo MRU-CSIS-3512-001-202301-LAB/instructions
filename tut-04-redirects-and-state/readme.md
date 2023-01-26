@@ -36,7 +36,7 @@ You'll also practice using cookies to "hold" information so that when the user r
 
 ---
 
-## Exercise: Get a Login Form to Redirect on Valid Login (and Re-Display Otherwise)
+## Ex 1: Get a Login Form to Redirect on Valid Login (and Re-Display Otherwise)
 
 Here are the files where you'll need to do some work:
 
@@ -61,7 +61,7 @@ This is the login form's view. You'll need to:
 
 ---
 
-## Exercise: Get a Page to Punt You to a Login Form if You're Not Logged In
+## Ex 2: Get a Page to Punt You to a Login Form if You're Not Logged In
 
 If a user tries to go to the `gates.php` without first logging in, we want to shunt them back to the login form.
 
@@ -81,5 +81,23 @@ You don't actually need to do anything here...but I'd take a look around in here
 
 ---
 
-## Exercise: Use Cookies to Store a Filter Preference
+## Ex 3: Use Cookies to Store a Filter Preference
+
+When the user clicks on an airline button, that button should highlight and the name of the airline should appear in the text area underneath the buttons.
+
+Also, if the user closes the browser (or browser tab) and then logs back in to the "site", the airline they last selected should now be pre-selected!
+
+Here's what you'll need to do, and where:
+
+### `views/gates.view.php`
+
+- [ ] Add some PHP to allow the name of an airport to be written in the `<div>` under the airline buttons. 
+
+### `gates.php`
+
+- [ ] If the query string has one of the known airlines (what are they?), set `$active_airline` correctly, make sure the name of that airline appears below the airline buttons...and store off a cookie that lasts for 30 days that holds the proper key/value pair.
+- [ ] If there is no query string, but there IS a cookie holding an airline, then do the same thing you did in the previous step: set `$active_airline` correctly, make sure the name of that airline appears below the airline buttons.
+- [ ] If none of the above is true, then make things behave as if the Air Canada button was selected.
+
+
 
