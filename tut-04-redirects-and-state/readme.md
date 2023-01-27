@@ -2,10 +2,10 @@
 
 ## Links You'll Need
 
-| What              | Where |
-| ----------------- | ----- |
-| Tut-04 Screencast | x     |
-| GH Classroom Asg  | x     |
+| What              | Where                                   |
+| ----------------- | --------------------------------------- |
+| Tut-04 Screencast | https://youtu.be/8sMt_gR0myU            |
+| GH Classroom Asg  | https://classroom.github.com/a/5r8HgPY_ |
 
 ## Background
 
@@ -49,7 +49,7 @@ Here's what needs to be done:
 - [ ] If the user lands on this page from a GET, then they should see the login form. 
 - [ ] If they're coming in from a POST, then:
     - [ ] If the user has entered `admin` for both the username (yes, I know the icon in the form is an email icon!) and password, then you should store something in PHP's session state to indicate a successful login has happened and redirect to `flights.php`.
-    - [ ] If the user has entered in any other username/password combination, redisplay the form with just the username filled in. (You don't have to worry about adding error messages...though you might want the practice if you're not sure how to do that!)
+    - [ ] If the user has entered in any other username/password combination, redisplay the form with just the username filled in. (You don't have to worry about adding validation messages...though you might want the practice if you're still a bit fuzzy on how to do that!)
     > _Why do you suppose we're not filling in the password, too?..._
     
 ### `views/login.view.php`
@@ -57,7 +57,7 @@ Here's what needs to be done:
 This is the login form's view. You'll need to:
 
 - [ ] Get the head and footer placed in the right spots, and
-- [ ] Get the username to persist if the form re-displays (see step 2, above).
+- [ ] Get the username to persist if the form re-displays, as mentioned in the `login.php` tasks.
 
 ---
 
@@ -81,7 +81,7 @@ You don't actually need to do anything here...but I'd take a look around in here
 
 ---
 
-## Ex 3: Use Cookies to Store a Filter Preference
+## Ex 3: React to User Selections & Use Cookies to Store a Filter Preference
 
 When the user clicks on an airline button, that button should highlight and the name of the airline should appear in the text area underneath the buttons.
 
@@ -91,13 +91,18 @@ Here's what you'll need to do, and where:
 
 ### `views/flights.view.php`
 
-- [ ] Add some PHP to allow the name of an airport to be written in the `<div>` under the airline buttons. 
+- [ ] Add some PHP to allow the name of an airport to be written in the `<div>` under the airline buttons.
+- [x] I _was_ going to get you to call the `button_class_for()` function with the correct args, but then I thought, "Nope - this is big enough." **But** your buttons _won't_ select unless you set `$active_airline` properly as described below!
 
 ### `flights.php`
 
 - [ ] If the query string has one of the known airlines (what are they?), set `$active_airline` correctly, make sure the name of that airline appears below the airline buttons...and store off a cookie that lasts for 30 days that holds the proper key/value pair.
-- [ ] If there is no query string, but there IS a cookie holding an airline, then do the same thing you did in the previous step: set `$active_airline` correctly, make sure the name of that airline appears below the airline buttons.
+- [ ] If there is no query string, but there IS a cookie holding an airline, then do the same thing you did in the previous step: set `$active_airline` correctly, and make sure the name of that airline appears below the airline buttons.
 - [ ] If none of the above is true, then make things behave as if the Air Canada button was selected.
 
 
+---
 
+## Don't forget to push!
+
+If you remember to push your work back to GitHub, I'll have a look at it on Friday/Saturday/Sunday and provide some feedback. If you don't push in that time, no feedback will be provided!
