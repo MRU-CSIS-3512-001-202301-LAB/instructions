@@ -19,9 +19,9 @@ You've got the views completed for these 2 pages...you had some hardcoded data t
 
 ## Things You'll Be Doing
 
-This tutorial will help you practice examining views to determine what data (and the format of that data) controllers will need to provide them. This is a fundamental skill - we often will have a good idea what kind of pages we want to create and what data we want to appear on them - once that process is done, the act of gathering that data together is often fairly mechanical and straightforward!
+This tutorial will help you practice examining views to determine what data (and the format of that data) controllers will need to provide to them. This is a fundamental skill - once we've decided what kind of pages we want to create and what data we want to appear on them, the act of gathering that data together is often fairly mechanical and straightforward!
 
-The major focus of this tutorial, however, is actually doing that mechanical and straightforward work - interacting with a database and collecting the necessary data in the desired format. 
+The major focus of this tutorial is doing that mechanical and straightforward work - interacting with a database and collecting the necessary data in the desired format. 
 
 ---
 
@@ -61,7 +61,7 @@ Using your work from **Step 3**, add code to the controller so that it gathers t
 
 #### feel like an extra challenge? (optional)
 
-If you want to push yourself a bit, alter your work so that if there is an invalid query string (so if it's not there, or not an actual store id) then the page just shows the results for the Calgary store.
+If you want to push yourself a bit, alter your work so that if there is an invalid query string (for example, it's not there, or not a valid store id) then the page just shows the results for the Calgary store.
 
 I've placed a helper function in `helpers/query-string-helpers.php` if you want to give that a try.
 
@@ -75,7 +75,7 @@ Using your work from **Step 3**, add code to the controller so that it gathers t
 
 #### feel like an extra challenge? (optional)
 
-Again, if you want to try and stretch those wings a bit, add code so that the query string is validated, like it was for the dashboard. You'll have to make your own helper functions this time....
+Again, if you want to try and stretch those wings a bit, add code so that the query string is validated, like it was for the dashboard. You'll have to make your own helper functions this time. You also get to decide what happens if it **is** and invalid query string!
 
 ---
 
