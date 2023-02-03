@@ -4,8 +4,8 @@
 
 | What              | Where                                                                              |
 | ----------------- | ---------------------------------------------------------------------------------- |
-| Tut-05 Screencast | https://youtu.be/rrwTZ1p_VhA                                                                                |
-| GH Classroom Asg  | [https://classroom.github.com/a/ArC5Yodn](https://classroom.github.com/a/ArC5Yodn) |
+| Tut-05 Screencast [5:45] | https://youtu.be/rrwTZ1p_VhA                                                                                |
+| GH Classroom Asg         | [https://classroom.github.com/a/ArC5Yodn](https://classroom.github.com/a/ArC5Yodn) |
 
 ## Background
 
