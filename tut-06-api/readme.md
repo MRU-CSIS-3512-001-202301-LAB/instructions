@@ -52,6 +52,40 @@ The airport code you want to find the city for.
 }
 ```
 
+### `/api/arrivals.php?status={status}`
+
+#### Description
+Lists the arrivals that have a given status at some airport.
+
+#### Query Parameters
+`status` _string_  **optional**
+
+The status of the arrivals you wish to receive. The valid values are "on time", "cancelled", "delayed", and "arrived".
+
+#### Example Response
+
+```json
+// response to api/arrivals.php?status=cancelled
+{
+  "total-count": 2,
+  "arrivals": [
+    {
+      "name": "Sunwing",
+      "origin": "Calgary",
+      "dest": "Denver",
+      "status": "Cancelled"
+    },
+    {
+      "name": "Air Canada",
+      "origin": "Edmonton",
+      "dest": "Calgary",
+      "status": "Cancelled"
+    }
+  ]
+}
+```
+
+
 ### `/api/arrivals.php`  (optional, if you'd like a challenge)
 
 #### Description
@@ -114,38 +148,7 @@ none
 }
 ```
 
-### `/api/arrivals.php?status={status}`
 
-#### Description
-Lists the arrivals that have a given status at some airport.
-
-#### Query Parameters
-`status` _string_  **optional**
-
-The status of the arrivals you wish to receive. The valid values are "on time", "cancelled", "delayed", and "arrived".
-
-#### Example Response
-
-```json
-// response to api/arrivals.php?status=cancelled
-{
-  "total-count": 2,
-  "arrivals": [
-    {
-      "name": "Sunwing",
-      "origin": "Calgary",
-      "dest": "Denver",
-      "status": "Cancelled"
-    },
-    {
-      "name": "Air Canada",
-      "origin": "Edmonton",
-      "dest": "Calgary",
-      "status": "Cancelled"
-    }
-  ]
-}
-```
 
 ---
 
@@ -215,6 +218,7 @@ The flow of each of these files follows the same pattern:
 ### some hints & suggestions
 
 - Build and test your queries out in DBeaver first. In particular, the query you need for your `arrivals` endpoint is a bit long, so you definitely don't want to jump right into the PHP code.
+- Feel free to add some helpers to `query-helpers.php` to keep things cleanish.
 - For the `airport` endpoint, remember that we want to return `{ }` if the provided code was not found; look at the docs for `json_encode()` to see how to do this easily - search for `JSON_FORCE_OBJECT`...
 - If you're trying to do the optional endpoint, you can make your life much easier by using `LIKE` and a wildcard in the query...but there's a small catch. Take a look [at this helpful blurb](https://phpdelusions.net/pdo#like) from phpdelusions. 
 
