@@ -5,7 +5,7 @@
 | What                      | Where   |
 | ------------------------- | ------- |
 | Tut-05 Screencast [xx:xx] | xx      |
-| GH Classroom Asg          | [xx](#) |
+| GH Classroom Asg          | [https://classroom.github.com/a/4TX9ys-s](https://classroom.github.com/a/4TX9ys-s) |
 
 ## Background
 
