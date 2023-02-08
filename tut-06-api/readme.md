@@ -166,7 +166,7 @@ Here are some suggestions. None of them are mandatory, but I'd at least pick one
     
 2. Add an extension to VS Code and look at your endpoints inside your editor. Keep it in the family.
 
-    I've added [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) to this Codespace because it had a monstrous number of downloads and stars. And an awesome name.
+    I'll suggest [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) because it had a monstrous number of downloads and stars. And an awesome name.
     
 3. Use an online tool. More features and available right in the browser, which is nice.
 
