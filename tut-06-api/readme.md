@@ -4,7 +4,7 @@
 
 | What                      | Where   |
 | ------------------------- | ------- |
-| Tut-05 Screencast [xx:xx] | xx      |
+| Screencast [06:54] | https://youtu.be/Po-JlRgB4tc      |
 | GH Classroom Asg          | [https://classroom.github.com/a/4TX9ys-s](https://classroom.github.com/a/4TX9ys-s) |
 
 ## Background
