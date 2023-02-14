@@ -2,10 +2,10 @@
 
 ## Links You'll Need
 
-| What                      | Where                                                                              |
-| ------------------------- | ---------------------------------------------------------------------------------- |
-| Tut-07 Screencast [xx:xx] | xx                                                                                 |
-| GH Classroom Asg          | [https://classroom.github.com/a/7jVH7GzO](https://classroom.github.com/a/7jVH7GzO) |
+| What              | Where                                                                              |
+| ----------------- | ---------------------------------------------------------------------------------- |
+| Tut-07 Screencast | None needed! This sucker's very straightforward!                                   |
+| GH Classroom Asg  | [https://classroom.github.com/a/7jVH7GzO](https://classroom.github.com/a/7jVH7GzO) |
 
 ## Background
 
