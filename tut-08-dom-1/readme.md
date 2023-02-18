@@ -2,10 +2,10 @@
 
 ## Links You'll Need
 
-| What              | Where    |
-| ----------------- | -------- |
-| Tut-08 Screencast | xxx      |
-| GH Classroom Asg  | [xxx](#) |
+| What              | Where                                                                              |
+| ----------------- | ---------------------------------------------------------------------------------- |
+| Tut-08 Screencast | Coming Later                                                                       |
+| GH Classroom Asg  | [https://classroom.github.com/a/OQzD5jzS](https://classroom.github.com/a/OQzD5jzS) |
 
 ## Things You'll Be Doing
 
