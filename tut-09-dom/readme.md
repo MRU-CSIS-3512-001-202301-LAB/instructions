@@ -25,6 +25,11 @@ Fun!
 
 ---
 
+## IMPORTANT
+
+Don't forget your `<script>` tags to bring in your JS files - and do so as modules!
+
+
 ## ex-01
 
 ### prerequisites
@@ -50,10 +55,12 @@ When you're done the steps below, `ex-01/index.html` should look like this:
 2. Change the element with id `specialPara` to have text that is `2em` and `bold`.
    
 3. Change the background color of the second `<article>` to `yellow`.
+
+    > _Try and use a CSS selector here instead of resorting to array notation._
    
 4. Change the placeholder in the text input with name `hex` to `#000`.
    
-5. Add the `boxy` class to the first div that has the class `box`. Make sure you don't remove the `box` class during this process!
+5. Add the `boxy` class to the first div that has the class `box`. Make sure you don't remove the `box` class during this process - you're not REPLACING the `box` class!
 
 
 ---
@@ -74,17 +81,21 @@ To complete this exercise, you should know how to:
 
 When you're done the steps below, `ex-02/index.html` should look like this:
 
-![ex-01 after](images/ex-02-after.png) 
+![ex-02 after](images/ex-02-after.png) 
 
 ### what you'll need to do in `ex-02/index.js`
 
 1. Change the text color of all `<p>` tags that are DIRECT children of `box` class elements to `hotpink`. Also change these same elements' text to say "This is BLUE" (which is a lie, but amusing).
 
+    > _You **will** need to loop here._
+
 2. Remove the `box` class from everything that has it.
    
-2. Add the `strong` and `boxy` classes to every `<p>` within the first `<article>`. You might want to refresh your memory regarding the `first-of-type` pseudo-class....
+3. Add the `strong` and `boxy` classes to every `<p>` within the first `<article>`. You might want to refresh your memory regarding the `first-of-type` pseudo-class....
    
-3. Change the `background colour` of every `text input` to be `rgba(0,0,255,0.1)`
+   > _**Tip:** `classList.add()` can take in multiple classes, separated by commas!_
+   
+4. Change the `background colour` of every `text input` to be `rgba(0,0,255,0.1)`
    
 ---
 
@@ -110,11 +121,11 @@ When you're done the steps below, `ex-03/index.html` should look like this:
 
 1. Remove the `<button>`.
   
-2. Add an `<img>` inside the `<main>` tag - looking at the picture and taking a look at the html, you should be able to figure out where it's supposed to go. The img tag shows the source `https://via.placeholder.com/400x400?text=placeholding+is+wonderful,+yo` and the alt text `"Placehold *this*!"`
+2. Add an `<img>` inside the `div#container` tag. The img tag shows the source `https://via.placeholder.com/400x400?text=placeholding+is+wonderful,+yo` and the alt text `"Placehold *this*!"`
 
     _The size of the image shown in the instructions might be slightly different...I don't have time to go back and fix it, unfortunately!_
 
-3. Add a `<header>` tag with an `<h1>` child that contains the text `(your name) wuz here` as the **first** child of the `<body>`. _Careful - there's nesting going on here!_
+3. Add a `<header>` tag with an `<h1>` child that contains the text `(your name) wuz here` as the **first** child of the `<body>`. 
 
 ---
 
