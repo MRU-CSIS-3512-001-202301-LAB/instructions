@@ -4,7 +4,7 @@
 
 | What              | Where                                                                              |
 | ----------------- | ---------------------------------------------------------------------------------- |
-| Tut-09 Screencast | Coming Later                                                                       |
+| Tut-09 Screencast | https://youtu.be/EOK1GeOfPwc                                                       |
 | GH Classroom Asg  | [https://classroom.github.com/a/OQzD5jzS](https://classroom.github.com/a/OQzD5jzS) |
 
 ## Things You'll Be Doing
