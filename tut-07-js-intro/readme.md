@@ -26,6 +26,23 @@ The three short exercises below will have you dealing with skills you'll be usin
 
 ---
 
+## IMPORTANT!
+
+When you're working in a Codespace on these tutorials, you'll need to run Live Server to access the pages in a browser.
+
+When you have an html doc open in VS Code, either right-click somewhere in the document and choose `Open with Live Server` 
+
+![open with](images/open-with-live-server.png)
+
+or click `Go Live` along the bottom of the screen:
+
+![go live](images/go-live.png)
+
+A browser tab should open eventually and then you're on your way.
+
+---
+
+
 ## Exercise-01
 
 If you look in the `ex-01` folder, you'll see two files: 
