@@ -29,6 +29,7 @@ Fun!
 
 Don't forget your `<script>` tags to bring in your JS files - and do so as modules!
 
+Don't forget you'll need to open your pages using Live Server!
 
 ## ex-01
 
