@@ -46,7 +46,7 @@ To complete this exercise, you should know how to:
 
 ### goal
 
-The file `data/pics.json` contains JSON for an array of objects holding information about the images that need to be created when the Load button is clicked.
+The file `data/pics.js` contains JSON for an array of objects holding information about the images that need to be created when the Load button is clicked.
 
 _Take a quick look at the file contents - it's always a good idea to get a feel for data you're dealing with._
 
@@ -60,7 +60,7 @@ _Note: I expanded the array in the console and then took the screenshot._
 
 ### what you'll need to do in `ex-01/index.js` and `ex-01/index.html`
 
-1. Create a well-named variable that holds the JS objects represented by the contents of `data/pics.json`.
+1. Create a well-named variable that holds the JS objects represented by the contents of `data/pics.js`.
 
 _Don't forget to make any necessary changes in `index.html`! You can decide where to put necessary `<script>` tags and whether you want to practice using `DOMContentLoaded` or not._
 
