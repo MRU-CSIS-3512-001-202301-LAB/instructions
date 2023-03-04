@@ -4,8 +4,8 @@
 
 | What              | Where        |
 | ----------------- | ------------ |
-| Tut-10 Screencast | Coming Later |
-| GH Classroom Asg  | Coming Later |
+| Tut-10 Screencast | None needed, IMO! |
+| GH Classroom Asg  | [https://classroom.github.com/a/8GgX6rpb](https://classroom.github.com/a/8GgX6rpb) |
 
 ## Things You'll Be Doing
 
