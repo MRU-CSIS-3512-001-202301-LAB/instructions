@@ -5,7 +5,7 @@
 | What              | Where        |
 | ----------------- | ------------ |
 | Tut-11 Screencast | Negative     |
-| GH Classroom Asg  | Coming Later |
+| GH Classroom Asg  | [https://classroom.github.com/a/XQExoLTi](https://classroom.github.com/a/XQExoLTi) |
 
 ## Things You'll Be Doing
 
