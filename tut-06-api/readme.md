@@ -219,7 +219,7 @@ The flow of each of these files follows the same pattern:
 
 - Build and test your queries out in DBeaver first. In particular, the query you need for your `arrivals` endpoint is a bit long, so you definitely don't want to jump right into the PHP code.
 - Feel free to add some helpers to `query-helpers.php` to keep things cleanish.
-- For the `airport` endpoint, remember that we want to return `{ }` if the provided code was not found; look at the docs for `json_encode()` to see how to do this easily - search for `JSON_FORCE_OBJECT`...
+- For the `airport` endpoint, remember that we want to return `{ }` if the provided code was not found; look at the docs for `json_encode()` to see how to do this easily - search for `JSON_FORCE_OBJECT`...**BUT BE CAREFUL ABOUT USING THIS OPTION ALL THE TIME**. It has effects that aren't always beneficial (\**cough arrivals endpoint\**).
 - If you're trying to do the optional endpoint, you can make your life much easier by using `LIKE` and a wildcard in the query...but there's a small catch. Take a look [at this helpful blurb](https://phpdelusions.net/pdo#like) from phpdelusions. 
 
 ---

@@ -4,8 +4,8 @@
 
 | What              | Where        |
 | ----------------- | ------------ |
-| Tut-10 Screencast | Coming Later |
-| GH Classroom Asg  | Coming Later |
+| Tut-10 Screencast | None needed, IMO! |
+| GH Classroom Asg  | [https://classroom.github.com/a/8GgX6rpb](https://classroom.github.com/a/8GgX6rpb) |
 
 ## Things You'll Be Doing
 
@@ -46,7 +46,7 @@ To complete this exercise, you should know how to:
 
 ### goal
 
-The file `data/pics.json` contains JSON for an array of objects holding information about the images that need to be created when the Load button is clicked.
+The file `data/pics.js` contains JSON for an array of objects holding information about the images that need to be created when the Load button is clicked.
 
 _Take a quick look at the file contents - it's always a good idea to get a feel for data you're dealing with._
 
@@ -60,7 +60,8 @@ _Note: I expanded the array in the console and then took the screenshot._
 
 ### what you'll need to do in `ex-01/index.js` and `ex-01/index.html`
 
-1. Create a well-named variable that holds the JS objects represented by the contents of `data/pics.json`.
+1. Create a well-named variable that holds the JS objects represented by the contents of `data/pics.js`.
+2. Output that variable to the console to check to make sure you've got step 1 done correctly.
 
 _Don't forget to make any necessary changes in `index.html`! You can decide where to put necessary `<script>` tags and whether you want to practice using `DOMContentLoaded` or not._
 
@@ -102,7 +103,7 @@ _**WARNING**: those things in the screenshot are NOT Strings! They are `<img>` e
 
 3. Turn the array of JS objects into an array of `<img>` DOM elements. What JS array method was **made** for that task?
 
-4. Loop through the results from 3 and output each DOM element to the console.
+4. Loop through the results from 3 and output each DOM element to the console. (Don't just output the array from step 3, or you won't see the desired results.)
 
 ---
 
@@ -127,7 +128,7 @@ When the Load button is clicked, the image elements from `ex-02` should appear i
 
 2. Add code that appends COPIES of the elements you created in `ex-02` to `div#pics` (look at the markup) when the Load button is clicked.
 
-    _If you don't make COPIES of the elements you're appending to the div, you'll only ever see 4 images! If you look at the docs for `appendChild`, you can figure out why this is true. To avoid this, you'll need to use the `cloneNode` method. For example, if you have a DOM element called `elem` that you want to append to a DOM element called `theDiv`, you should go `theDiv.appendChild(elem.cloneNode())`._
+    _If you don't make COPIES of the elements you're appending to the div, you'll only ever see 4 images! If you look at the docs for `appendChild`, you can figure out why this is true. To avoid this, you'll need to use the `cloneNode` method. For example, if you have a DOM element called `elem` that you want to append to a DOM element called `theDiv`, you should go `theDiv.append(elem.cloneNode())`._
 
 ---
 
@@ -178,11 +179,11 @@ When the `a` key is pressed, all images in the DOM should be removed. (See the s
 
 2. Add code to remove all images when the `a` key is pressed.
 
-_Have the `document` listen for the `keydown` event to do this._
+_Have the `document` listen for the `keydown` event to do this. You should also look up the documentation for replaceChildren() - it's much easier to use than some of the old-school methods you might find on SO! Get with the present! :)_
 
 ---
 
-## ex-06: make the app react to the `f` key being pressed
+## ex-06: make the app react to the `f` key being pressed (challenging!)
 
 ### prerequisites
 
@@ -206,7 +207,7 @@ When the `f` key is pressed, all images currently in the DOM should fade by 80%.
 
 1. Copy your code from `ex-05` into `ex-06`. 
 
-2. Add to your `keydown` handler code to now also reduce the opacity of all image elements by 80% when the `f` key is pressed.
+2. Add to your `keydown` handler code to now also reduce the opacity of all image elements by 80% **of their current value** when the `f` key is pressed.
 
 
 ---
