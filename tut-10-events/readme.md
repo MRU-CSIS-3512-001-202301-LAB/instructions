@@ -197,9 +197,9 @@ To complete this exercise, you should know how to:
 
 ### goal
 
-When the `f` key is pressed, all images currently in the DOM should fade by 80%. Think carefully about what this means!
+When the `f` key is pressed, all images currently in the DOM should fade to 80% their current opacity. Think carefully about what this means!
 
-> _**Hint:** What is the starting opacity of these images? When we reduce something by a certain %, what does that mean? For example, imagine somebody says to you "Here's $100. Every time I say 'poof!', I want you to destroy 50% of the money you have." After you hear 'poof!' 3 times, how much money would you have left?..._
+> _**Hint:** What is the starting opacity of these images? When we reduce something by a certain %, what does that mean? For example, imagine somebody says to you "Here's $100. Every time I say 'poof!', I want you to toss away enough money so that you have 80% of the money you had previously." After you hear 'poof!' 3 times, how much money would you have left?..._
 
 (See the screencast mentioned in [The Final Product](#the-final-product) for a demo.)
 
